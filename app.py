@@ -130,6 +130,15 @@ def _inject_css() -> None:
                 backdrop-filter: blur(14px);
             }
 
+            #MainMenu,
+            footer {
+                visibility: hidden;
+            }
+
+            footer {
+                height: 0;
+            }
+
             .block-container {
                 max-width: 1180px;
                 padding-top: 2.1rem;
